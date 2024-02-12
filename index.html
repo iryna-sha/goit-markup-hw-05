@@ -562,17 +562,35 @@
                 class="footer-link"
                 href="https://www.linkedin.com/"
                 target="_blank">
-                <svg class="team-icons" fill="#f4f4fd" width="8" height="8">
+                <svg class="team-icons" fill="#f4f4fd" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
+        <div class="footer-form-container">
+          <p class="footer-form-mail">Subscribe</p>
+          <form class="form-footer">
+            <label class="form-email">
+              <input
+                class="input-email"
+                type="email"
+                name="form-email"
+                placeholder="E-mail" />
+            </label>
+            <button type="submit" class="footer-btn">
+              Subscribe
+              <svg class="footer-btn-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-button">
           <svg class="modal-close-icon" fill="#2E2F42" width="8" height="8">
@@ -630,14 +648,24 @@
               id="user-comment"
               placeholder="Text input"></textarea>
           </div>
-          <div class="label-checkbox">
+          <div class="privacy-policy">
             <input
               type="checkbox"
-              class="checkb-privacy"
+              class="checkbox-privacy visually-hidden"
               name="user-privacy"
-              value="one"
+              value="true"
               id="user-privacy" />
+            <label class="privacy-text" for="user-privacy">
+              <span
+                ><svg class="checkbox-icon" width="10" height="8">
+                  <use
+                    href="./images/icons.svg#icon-Vector-checkbox"></use></svg
+              ></span>
+              I accept the terms and conditions of the
+              <a href=""> Privacy Policy</a></label
+            >
           </div>
+          <button class="submit-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
