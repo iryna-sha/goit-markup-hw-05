@@ -703,6 +703,10 @@ img {
   fill: rgb(77, 90, 229);
 }
 
+.modal-comment {
+  margin-bottom: 16px;
+}
+
 .comment-field {
   font-size: 12px;
   line-height: 1.17;
@@ -750,6 +754,10 @@ img {
   text-decoration: underline;
   color: #4d5ae5;
   margin-left: 4px;
+}
+
+.checkbox-icon {
+  display: inline-flex;
 }
 
 .backdrop-span {
