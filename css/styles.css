@@ -538,10 +538,13 @@ img {
   background-color: transparent;
   color: #ffffff;
   margin-left: 80px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 
 .footer-btn {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   font-weight: 500;
   font-size: 16px;
@@ -565,6 +568,7 @@ img {
 
 .footer-btn-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 .footer-btn:hover,
@@ -661,6 +665,7 @@ img {
   letter-spacing: 0.04em;
   text-align: left;
   margin-bottom: 4px;
+  display: block;
 }
 
 .modal-input-wrap {
@@ -668,7 +673,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 18px;
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -676,13 +681,10 @@ img {
   min-height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  padding-left: 39px;
+  padding-left: 38px;
   outline: transparent;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  font-size: 12px;
-  line-height: 2;
-  line-height: 2;
 }
 
 .modal-input:focus {
@@ -702,6 +704,10 @@ img {
 }
 
 .comment-field {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   width: 100%;
   min-height: 120px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -747,7 +753,6 @@ img {
 }
 
 .backdrop-span {
-  display: inline-flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -759,7 +764,7 @@ img {
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
@@ -771,11 +776,11 @@ img {
   fill: #f4f4fd;
 }
 .privacy-policy {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .submit-btn {
-  min-width: 165px;
+  min-width: 169px;
   height: 56px;
   padding: 16px 32px;
   color: #ffffff;
